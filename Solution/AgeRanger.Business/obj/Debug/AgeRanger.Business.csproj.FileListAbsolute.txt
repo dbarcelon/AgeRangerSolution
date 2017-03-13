@@ -1,0 +1,16 @@
+C:\Personal\Application\Robert Half Technology\AgeRanger-master\AgeRanger-master\Solution\AgeRanger\AgeRanger.Business\bin\Debug\AgeRanger.Business.dll
+C:\Personal\Application\Robert Half Technology\AgeRanger-master\AgeRanger-master\Solution\AgeRanger\AgeRanger.Business\bin\Debug\AgeRanger.Business.pdb
+C:\Personal\Application\Robert Half Technology\AgeRanger-master\AgeRanger-master\Solution\AgeRanger\AgeRanger.Business\bin\Debug\AgeRanger.Data.dll
+C:\Personal\Application\Robert Half Technology\AgeRanger-master\AgeRanger-master\Solution\AgeRanger\AgeRanger.Business\bin\Debug\AgeRanger.Utils.dll
+C:\Personal\Application\Robert Half Technology\AgeRanger-master\AgeRanger-master\Solution\AgeRanger\AgeRanger.Business\bin\Debug\PostSharp.dll
+C:\Personal\Application\Robert Half Technology\AgeRanger-master\AgeRanger-master\Solution\AgeRanger\AgeRanger.Business\bin\Debug\System.Data.SQLite.dll
+C:\Personal\Application\Robert Half Technology\AgeRanger-master\AgeRanger-master\Solution\AgeRanger\AgeRanger.Business\bin\Debug\AgeRanger.Data.pdb
+C:\Personal\Application\Robert Half Technology\AgeRanger-master\AgeRanger-master\Solution\AgeRanger\AgeRanger.Business\bin\Debug\AgeRanger.Utils.pdb
+C:\Personal\Application\Robert Half Technology\AgeRanger-master\AgeRanger-master\Solution\AgeRanger\AgeRanger.Business\bin\Debug\PostSharp.xml
+C:\Personal\Application\Robert Half Technology\AgeRanger-master\AgeRanger-master\Solution\AgeRanger\AgeRanger.Business\bin\Debug\System.Data.SQLite.xml
+C:\Personal\Application\Robert Half Technology\AgeRanger-master\AgeRanger-master\Solution\AgeRanger\AgeRanger.Business\bin\Debug\AgeRanger.Business.pssym
+C:\Personal\Application\Robert Half Technology\AgeRanger-master\AgeRanger-master\Solution\AgeRanger\AgeRanger.Business\obj\Debug\AgeRanger.Business.csprojResolveAssemblyReference.cache
+C:\Personal\Application\Robert Half Technology\AgeRanger-master\AgeRanger-master\Solution\AgeRanger\AgeRanger.Business\obj\Debug\AgeRanger.Business.dll.postsharp
+C:\Personal\Application\Robert Half Technology\AgeRanger-master\AgeRanger-master\Solution\AgeRanger\AgeRanger.Business\obj\Debug\AgeRanger.Business.dll
+C:\Personal\Application\Robert Half Technology\AgeRanger-master\AgeRanger-master\Solution\AgeRanger\AgeRanger.Business\obj\Debug\AgeRanger.Business.pdb
+C:\Personal\Application\Robert Half Technology\AgeRanger-master\AgeRanger-master\Solution\AgeRanger\AgeRanger.Business\obj\Debug\PostSharpHost.config
