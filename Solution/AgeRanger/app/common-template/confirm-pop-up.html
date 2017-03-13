@@ -1,0 +1,26 @@
+﻿<div class="row">
+    <div class="col-md-12">
+        <div class="row">
+            <div class="col-md-12">
+                <button class="close" ng-click="vm.func.ok()" value="" style="padding-right: 10px;">&times;</button>
+                <strong ng-class="{'modal-title': true}">Please Confirm</strong>
+            </div>
+        </div>
+        <div class="modal-body">
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="alert alert-warning">{{vm.data.popupInfo.message}}</p>
+                    <p>If you are sure you want to continue with the action then Click <strong>Yes</strong> otherwise click <strong>No</strong>.</p>
+                </div>
+            </div>
+            <div class="row" style="padding: 10px;">
+                <div class="col-md-offset-7 col-md-2 col-sm-offset-4 col-sm-4 col-xs-offset-4 col-xs-4">
+                    <button class="btn btn-default" ng-click="vm.func.cancel();">No</button>
+                </div>
+                <div class="col-md-3 col-sm-4 col-xs-4">
+                    <button class="btn btn-primary" ng-click="vm.func.ok();">Yes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

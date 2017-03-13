@@ -1,0 +1,19 @@
+﻿<div class="row" id="#popup2">
+    <div class="col-md-12">
+        <md-card>
+            <md-card-title>
+                <md-card-title-text>
+                    <span><strong>{{vm.data.popupInfo.status}}</strong></span>
+                </md-card-title-text>
+            </md-card-title>
+            <md-card-content>
+                <div ng-class="{'alert alert-danger': vm.data.popupInfo.status == 'ERROR',
+                                'alert  alert-success': vm.data.popupInfo.status == 'SUCCESS',
+                                'alert  alert-info': vm.data.popupInfo.status == 'INFO'}" ng-bind-html="vm.data.popupInfo.message"></div>
+            </md-card-content>
+            <md-card-actions layout="row" layout-align="center">
+                <button class="btn btn-primary" ng-click="vm.func.ok();">Ok</button>
+            </md-card-actions>
+        </md-card>
+    </div>
+</div>

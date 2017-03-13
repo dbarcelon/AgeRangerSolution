@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html ng-app="age.ranger">
+<head>
+    <title>Age Ranger Application</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="bower_components/angular-block-ui/dist/angular-block-ui.min.css" rel="stylesheet" />
+    <link href="bower_components/angular-ui-grid/ui-grid.min.css" rel="stylesheet" />
+    <link href="bower_components/angular-material/angular-material.css" rel="stylesheet" />
+    <link href="styles.css" rel="stylesheet" />
+</head>
+<body ng-controller="mainController as mc" ng-cloak>
+    <md-toolbar>
+        <div class="md-toolbar-tools">
+            <h2>
+                <span>Age Ranger Application</span>
+            </h2>
+        </div>
+    </md-toolbar>
+    <div class="container-fluid">
+        <div ui-view></div>
+    </div>
+
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/lodash/dist/lodash.min.js"></script>
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="bower_components/angular-sanitize/angular-sanitize.min.js"></script>
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <script src="bower_components/angular-bootstrap/ui-bootstrap.min.js"></script>
+    <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+    <script src="bower_components/angular-block-ui/dist/angular-block-ui.min.js"></script>
+    <script src="bower_components/angular-ui-grid/ui-grid.min.js"></script>
+    <script src="app.js"></script>
+    <script src="servicecallfactory.js"></script>
+    <script src="main/main.controller.js"></script>
+    <script src="person-maintenance-list/person-maintenance-list.controller.js"></script>
+    <script src="error-not-authorized/error-not-authorized.controller.js"></script>
+    <script src="common-template/error-success-pop-up.controller.js"></script>
+    <script src="common-template/confirm-pop-up.controller.js"></script>
+    <script src="common-template/ageranger-popup.service.js"></script>
+    <script src="common-template/add-update-person-information-pop-up.js"></script>
+</body>
+</html>

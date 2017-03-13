@@ -1,0 +1,15 @@
+﻿<div class="row container-fluid">
+    <div class="row">
+        <div class="col-md-12 page-header">
+            <h4>Person List</h4>
+        </div>
+    </div>
+    <md-card>
+        <div class="col-md-offset-10 col-md-2">
+            <button class="btn-primary" title="Add New Person" ng-click="vm.func.addPerson();">
+                Add New Person
+            </button>
+        </div><br />
+        <div class="grid" ui-grid="vm.data.gridOptions" ui-grid-pagination></div>
+    </md-card>
+</div>

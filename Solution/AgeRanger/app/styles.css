@@ -1,0 +1,259 @@
+﻿
+.label {
+    display: inline;
+    padding: .2em .6em .3em;
+    font-size: 90%;
+    font-weight: 700;
+    line-height: 1;
+    color: #4F246C;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+}
+
+md-toolbar.md-default-theme.md-menu-toolbar md-toolbar-filler, md-toolbar.md-menu-toolbar md-toolbar-filler {
+    background-color: #4F246C;
+    color: rgba(255,255,255,0.87);
+}
+
+md-toolbar.md-default-theme:not(.md-menu-toolbar), md-toolbar:not(.md-menu-toolbar) {
+    background-color: #4F246C;
+    color: rgba(255,255,255,0.87);
+}
+
+md-card {
+    border: 1px solid #9EB9DB;
+    box-shadow: 3px 3px 2px #9EB9DB;
+    padding: 5px;
+    margin: 8px !important;
+}
+
+    md-card md-card-content {
+        display: block;
+        padding: 5px;
+    }
+
+    md-card md-card-title {
+        padding: 3px;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+        -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+        flex-direction: row;
+    }
+
+md-input-container {
+    display: inline-block;
+    position: relative;
+    padding: 2px;
+    margin: 2px 0;
+    vertical-align: middle;
+    /*
+   * The .md-input class is added to the input/textarea
+   */
+}
+
+md-card-title {
+    color: white;
+    background-color: #96C3F3;
+}
+
+md-input-container > md-select {
+    flex: 1;
+    order: 2;
+    margin: 0;
+}
+
+md-toolbar.md-default-theme.md-menu-toolbar, md-toolbar.md-menu-toolbar {
+    background-color: #96C3F3;
+    color: rgba(0,0,0,0.87);
+}
+
+md-toolbar {
+    box-sizing: border-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    position: relative;
+    z-index: 2;
+    font-size: 20px;
+    min-height: 40px;
+    width: 100%;
+}
+
+md-menu-bar .md-menu {
+    display: inline-block;
+    padding: 0;
+    position: relative;
+    border-right: 1px solid rgba(255,255,255,0.87);
+}
+
+md-input-container {
+    width: 100%;
+}
+
+.box-shadow {
+    border: 1px solid #9EB9DB;
+    box-shadow: 3px 3px 2px #9EB9DB;
+}
+
+table thead {
+    background: #96C3F3;
+    color: white;
+}
+
+.page-header {
+    padding-bottom: 9px;
+    margin: 5px 0 5px;
+    border-bottom: 1px solid #eee;
+}
+
+table > thead > tr > th {
+    border-right: 1px solid #fff;
+    text-align: center !important;
+    word-wrap: break-word !important;
+}
+
+table > tbody > tr > td.text-align-center {
+    text-align: center !important;
+}
+
+table > thead > tr > th {
+    padding-left: 5px !important;
+    padding-right: 0px !important;
+}
+
+table > tbody > tr > td {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+    border-right: 1px solid #C7C7C7;
+}
+
+table.md-table tbody.md-body > tr.md-row, table.md-table tfoot.md-foot > tr.md-row {
+    height: 30px;
+}
+
+table.md-table thead.md-head > tr.md-row {
+    height: 30px;
+}
+
+table.md-table {
+    width: 100%;
+    border-spacing: 0;
+    overflow: hidden;
+    border: solid 1px grey;
+}
+
+td > button {
+    display: inline-block;
+    padding: 2px 2px !important;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.alert {
+    padding: 5px;
+    margin-bottom: 0px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.badge, .label {
+    font-weight: 700;
+    line-height: 1;
+    white-space: inherit;
+    text-align: center;
+}
+
+.margin-top-20 {
+    margin-top: 20px;
+}
+
+.margin-top-5 {
+    margin-top: 5px;
+}
+
+.green-background {
+    background-color: #C0FFC0;
+}
+
+.red-background {
+    background-color: red;
+    color: white;
+}
+
+.grey-background {
+    background-color: grey;
+    color: white;
+}
+
+md-backdrop.md-select-backdrop {
+    z-index: 9999;
+}
+
+.md-select-menu-container {
+    z-index: 10000;
+}
+
+input[disabled] {
+    pointer-events: none;
+}
+
+/* The starting CSS styles for the enter animation */
+.fadein,
+.fadeout {
+    -webkit-transition: all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s;
+    -moz-transition: all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s;
+    -o-transition: all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s;
+    transition: all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s;
+}
+
+    .fadein.ng-hide-remove,
+    .fadeout.ng-hide-add.ng-hide-add-active {
+        opacity: 0;
+        display: block !important;
+    }
+
+        .fadeout.ng-hide-add,
+        .fadein.ng-hide-remove.ng-hide-remove-active {
+            opacity: 1;
+            display: block !important;
+        }
+
+
+#popup1 {
+    z-index: 9997;
+}
+
+#popup2 {
+    z-index: 9998;
+}
+
+.gridStyle {
+    border: 1px solid rgb(212,212,212);
+    width: 600px; 
+    height: 300px;
+}
